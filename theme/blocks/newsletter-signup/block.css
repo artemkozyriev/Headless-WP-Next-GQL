@@ -1,0 +1,82 @@
+.block-editor-newsletter-signup {
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.block-editor-newsletter-signup.default{
+    background-color: #ffffff;
+    border-top: 4px #000 solid;
+}
+
+.block-editor-newsletter-signup.layout-one{
+    background-color: #F7F7F7;
+    border-top: none;
+}
+
+.block-editor-newsletter-signup.layout-two{
+    background-color: #121212;
+    border-top: none;
+}
+
+.newsletter-left {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-right {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wp-block .block-editor-newsletter-signup h3 {
+    margin: 0 0 15px;
+}
+
+.wp-block .block-editor-newsletter-signup p {
+    margin: 0 0 15px;
+    color: #525252;
+}
+
+.wp-block .block-editor-newsletter-signup input {
+    width: 100%;
+    margin: 0 0 15px;
+}
+
+.wp-block .newsletter-form input {
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.newsletter-right .newsletter-submit {
+    background-color: #000;
+    text-transform: uppercase;
+    color: #fff;
+    width: 100%;
+}
+.newsletter-right .newsletter-submit.bg-red {
+    background-color: #DB3327;
+    color: #fff;
+}
+
+.wp-block .block-editor-newsletter-submit .btn {
+    background-color: #000;
+    text-transform: uppercase;
+    color: #fff;
+    width: 100%;
+}
+
+.wp-block .block-editor-newsletter-submit .btn.bg-red {
+    background-color: #DB3327;
+    color: #fff;
+}
+
+.block-editor-newsletter-signup.post-init {
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}

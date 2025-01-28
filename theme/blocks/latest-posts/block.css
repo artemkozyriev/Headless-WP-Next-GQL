@@ -1,0 +1,24 @@
+.block-editor-latest-posts {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.wp-block .block-editor-latest-posts h2 {
+    margin: 0 0 15px;
+}
+
+.wp-block .block-editor-latest-posts .latest-post {
+    padding-bottom: 15px;
+}
+
+.wp-block .block-editor-latest-posts .latest-post img {
+    margin: 0 0 15px;
+}
+
+.wp-block .block-editor-latest-posts .latest-post h3 {
+    margin: 0 0 15px;
+}
+
+.wp-block .block-editor-latest-posts .latest-post p {
+    margin: 0 0 15px;
+}

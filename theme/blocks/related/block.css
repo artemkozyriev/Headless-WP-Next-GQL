@@ -1,0 +1,112 @@
+.wp-block:has(> .block-editor-related-posts) {
+	padding-block: 40px;
+}
+
+.block-editor-related-posts {
+    border: 1px solid #000;
+    padding: 15px;
+	position: relative;
+}
+
+.block-editor-related-posts .related-posts-title {
+	text-align: center;
+	padding-block: 5px;
+	border-top: 6px solid #121212;
+	border-bottom: 1px solid var(--border-color);
+	margin-bottom: 25px;
+
+
+	& > h2 {
+		font-family: 'RightGrotesk' !important;
+		text-transform: uppercase;
+		font-size: 40px;
+		line-height: 1.125;
+		margin: 0;
+
+		@media (max-width: 767px) {
+			font-size: 36px;
+		}
+	}
+}
+
+.block-editor-related-posts .block-editor-block-list__layout {
+	position: static;
+}
+
+.block-editor-related-posts > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    display: flex;
+	overflow-x: auto;
+	padding-bottom: 20px;
+}
+
+.block-editor-related-posts > .block-editor-inner-blocks > .block-editor-block-list__layout.grid {
+    display: grid;
+	padding-bottom: 20px;
+	grid-template-columns: repeat(4, 1fr);
+
+	@media (max-width: 1023px) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (max-width: 767px) {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	&:not(:has(+ .block-list-appender)) {
+		padding-right: 20px;
+		margin-right: 0px;
+		border-right: 1px solid var(--border-color);
+	}
+}
+
+.block-editor-related-posts > .block-editor-inner-blocks > .block-editor-block-list__layout > .wp-block:not(.block-list-appender) {
+    flex: 0 0 calc(25% - 41px);
+
+	@media (max-width: 1023px) {
+		flex: 0 0 calc(50% - 41px);
+	}
+
+	@media (max-width: 767px) {
+		flex: 0 0 calc(90% - 41px);
+	}
+
+	&:not(:has(+ .block-list-appender)) {
+		padding-right: 20px;
+		margin-right: 20px;
+		border-right: 1px solid var(--border-color);
+	}
+}
+
+.block-editor-related-posts .post {
+	& img {
+		width: 100%;
+	}
+}
+
+.block-editor-related-posts .block-list-appender {
+	width: 36px !important;
+	background: #FFF;
+}
+
+.block-editor-related-posts .post-selector {
+    padding: 15px;
+    min-height: 100px;
+}
+
+.block-editor-related-posts.dark {
+	background: #121212;
+	color: #E0E0E0;
+	--border-color: #525252;
+
+	& h2 {
+		color: #FFF;
+	}
+
+	& .post {
+		& h2,
+		& .slug,
+		& .author {
+			color: #FFF;
+		}
+	}
+}

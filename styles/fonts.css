@@ -1,0 +1,61 @@
+/* @import url("https://use.typekit.net/dpc3rky.css"); */
+
+@font-face {
+    font-family: 'Ivar';
+    src: url('../assets/fonts/Ivar-Display/IvarDisplay-Regular.woff2') format('woff2'),
+         url('../assets/fonts/Ivar-Display/IvarDisplay-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ivar';
+    src: url('../assets/fonts/Ivar-Display/IvarDisplay-Medium.woff2') format('woff2'),
+         url('../assets/fonts/Ivar-Display/IvarDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ivar';
+    src: url('../assets/fonts/Ivar-Display/IvarDisplay-MediumItalic.woff2') format('woff2'),
+         url('../assets/fonts/Ivar-Display/IvarDisplay-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'National';
+    src: url('../assets/fonts/National-2-Narrow/national-2-narrow-light.woff2') format('woff2');
+    font-weight: 350;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'National';
+    src: url('../assets/fonts/National-2-Narrow/National2Narrow-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'National';
+    src: url('../assets/fonts/National-2-Narrow/national-2-narrow-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RightGrotesk';
+    src: url('../assets/fonts/Right-Grotesk/PPRightGrotesk-TightMedium.woff2') format('woff2'),
+    url('../assets/fonts/Right-Grotesk/PPRightGrotesk-TightMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

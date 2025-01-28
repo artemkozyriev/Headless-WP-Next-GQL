@@ -1,0 +1,48 @@
+.wp-block:has(> .block-editor-newsletter) {
+	padding-block: 40px;
+}
+
+.block-editor-newsletter {
+    padding: 15px;
+}
+
+.wp-block .block-editor-newsletter img {
+    margin: 0 0 15px;
+}
+
+.wp-block .block-editor-newsletter h3 {
+    margin: 0 0 15px;
+}
+
+.wp-block .block-editor-newsletter p {
+    margin: 0 0 15px;
+}
+
+.wp-block .block-editor-newsletter input {
+    width: 100%;
+    margin: 0 0 15px;
+}
+
+.wp-block .block-editor-newsletter button {
+    width: 100%;
+}
+
+.newsletter-image-upload {
+    margin-bottom: 24px;
+}
+
+.newsletter-image-upload .label {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: calc(8px);
+    padding: 0px;
+}
+
+.newsletter-image-upload button {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}

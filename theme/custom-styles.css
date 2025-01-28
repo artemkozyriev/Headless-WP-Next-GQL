@@ -1,0 +1,174 @@
+.edit-post-meta-boxes-area #poststuff #youtube_video_meta_box h2 {
+    font-size: 13px;
+    line-height: normal;
+    padding: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.edit-post-meta-boxes-area #poststuff #youtube_video_meta_box .postbox-header button {
+    box-shadow: none;
+}
+
+.edit-post-meta-boxes-area #poststuff #youtube_video_meta_box .handle-order-higher,
+.edit-post-meta-boxes-area #poststuff #youtube_video_meta_box .handle-order-lower {
+    display: none;
+}
+
+.edit-post-meta-boxes-area #poststuff #youtube_video_meta_box .inside {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.edit-post-meta-boxes-area #poststuff #youtube_video_meta_box .toggle-indicator {
+    margin-right: 10px;
+}
+
+.edit-post-meta-boxes-area #poststuff #youtube_video_meta_box .toggle-indicator:before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBjbGFzcz0iY29tcG9uZW50cy1wYW5lbF9fYXJyb3ciIGFyaWEtaGlkZGVuPSJ0cnVlIiBmb2N1c2FibGU9ImZhbHNlIj48cGF0aCBkPSJNNi41IDEyLjRMMTIgOGw1LjUgNC40LS45IDEuMkwxMiAxMGwtNC41IDMuNi0xLTEuMnoiPjwvcGF0aD48L3N2Zz4=");
+}
+
+.edit-post-meta-boxes-area #poststuff #youtube_video_meta_box.closed .toggle-indicator:before {
+    background: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBjbGFzcz0iY29tcG9uZW50cy1wYW5lbF9fYXJyb3ciIGFyaWEtaGlkZGVuPSJ0cnVlIiBmb2N1c2FibGU9ImZhbHNlIj48cGF0aCBkPSJNMTcuNSAxMS42TDEyIDE2bC01LjUtNC40LjktMS4yTDEyIDE0bDQuNS0zLjYgMSAxLjJ6Ij48L3BhdGg+PC9zdmc+");
+}
+
+.edit-post-meta-boxes-area #poststuff #youtube_video_meta_box .postbox-header {
+    border-top: 0;
+}
+
+.edit-post-meta-boxes-area #poststuff #youtube_video_meta_box .inside label {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: calc(8px);
+    padding: 0px;
+}
+
+.wp-block-query {
+	& .wp-block-post {
+		display: grid;
+		grid-template-columns: 300px 2fr;
+
+		@media (max-width: 767px) {
+			display: block;
+			min-height: 120px;
+			padding-block: 20px;
+		}
+	}
+
+	& .wp-block-group {
+		padding-left: 40px;
+
+		@media (max-width: 767px) {
+			padding-left: 0;
+			padding-right: 20px;
+		}
+	}
+
+	& .wp-block-post-terms > a {
+		font-family: 'National', sans-serif;
+		font-size: 13px;
+		line-height: 16px;
+		color: #121212;
+		font-weight: 500;
+		text-transform: uppercase;
+		padding-bottom: 1px;
+		border-bottom: 1px solid #DB3327;
+		text-decoration: none;
+	}
+
+	& h2:is(h2).wp-block-post-title.wp-block-post-title.wp-block-post-title {
+		margin-top: 10px;
+		margin-bottom: 4px;
+	}
+
+	& .wp-block-post-excerpt {
+		font-size: 14px;
+		color: #525252;
+		font-family: 'National', sans-serif;
+		font-weight: 350;
+		line-height: 18px;
+	}
+
+	& figure:is(figure):not(:is(:not(figure))).wp-block-post-featured-image, 
+	& h2:is(h2):not(:is(:not(h2))).wp-block-post-title, 
+	& .wp-block-post-excerpt > p:is(p):not(:is(:not(p))) {
+		margin: 0;
+	}
+
+	& .wp-block-post-excerpt__more-link {
+		display: none;
+	}
+
+	& .wp-block-post-featured-image {
+		aspect-ratio: 300 / 200;
+
+		& img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		@media (max-width: 767px) {
+			float: right;
+			width: 90px;
+			height: 90px;
+			margin-bottom: 10px;
+
+			& > .components-placeholder {
+				min-height: unset;
+				height: 100%;
+				width: 100%;
+			}
+		}
+	}
+
+	& .wp-block-query-pagination,
+	& .wp-block-query-pagination * {
+		container-type: unset;
+	}
+
+	& .wp-block-query-pagination-previous,
+	& .wp-block-query-pagination-next {
+		font-size: 0;
+		width: 28px;
+		height: 28px;
+		border: 1px solid #E0E0E0;
+		border-radius: 999px;
+		text-decoration: none;
+		position: relative;
+		display: grid;
+		place-content: center;
+
+		&:after {
+			content: '';
+			display: block;
+			border: 1px solid #121212;
+			border-width: 0 0 1px 1px;
+			rotate: 45deg;
+			width: 8px;
+			height: 8px;
+		}
+
+		&:is(.wp-block-query-pagination-next):after {
+			border-width: 1px 1px 0 0;
+			margin-left: -5px;
+		}
+	}
+
+	& .page-numbers {
+		font-family: 'National', sans-serif;
+		text-decoration: none !important;
+		font-size: 14px;
+		min-width: 22px;
+
+		&:not(:last-child) {
+			margin-right: 10px;
+		}
+	}
+}

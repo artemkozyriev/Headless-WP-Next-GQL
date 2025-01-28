@@ -1,0 +1,157 @@
+.wp-block:has(> .block-editor-promo-block) {
+	padding-block: 40px;
+}
+
+.block-editor-promo-block {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.block-editor-promo-block > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-editor-promo-block > .block-editor-inner-blocks > .block-editor-block-list__layout > .wp-block:first-child {
+    width: calc(100% - 311px - 20px);
+}
+
+.block-editor-promo-block > .block-editor-inner-blocks > .block-editor-block-list__layout > .wp-block:nth-child(2) {
+    width: 311px;
+    /* border: 1px solid black; */
+}
+
+.block-editor-post-grid {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* padding: 20px;
+    border: 1px solid black; */
+}
+
+.block-editor-post-grid .block-editor-block-list__layout {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.block-editor-promo-block.second-layout .block-editor-post-grid > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    flex-direction: column;
+}
+
+.block-editor-post-grid > .block-editor-inner-blocks > .block-editor-block-list__layout > div:first-child {
+    width: 100%;
+    max-width: 310px;
+    padding: 0 20px 20px 0;
+}
+
+.block-editor-promo-block.second-layout .block-editor-post-grid > .block-editor-inner-blocks > .block-editor-block-list__layout > div:first-child {
+    max-width: 100%;
+    padding: 0 0 20px;
+    display: flex;
+    justify-content: space-between;
+    order: 1;
+}
+
+.block-editor-promo-block.second-layout .block-editor-post-grid > .block-editor-inner-blocks > .block-editor-block-list__layout > div:first-child .block-editor-two-posts {
+    width: 100%;
+}
+
+.block-editor-promo-block.second-layout .block-editor-post-grid > .block-editor-inner-blocks > .block-editor-block-list__layout > div:first-child .block-editor-block-list__layout {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px
+}
+
+.block-editor-promo-block.second-layout .block-editor-post-grid > .block-editor-inner-blocks > .block-editor-block-list__layout > div:first-child .block-editor-block-list__layout > div {
+    width: 50%;
+}
+
+.block-editor-post-grid > .block-editor-inner-blocks > .block-editor-block-list__layout > div:nth-child(2) {
+    width: calc(100% - 330px);
+    padding-bottom: 20px;
+}
+
+.block-editor-promo-block.second-layout .block-editor-post-grid > .block-editor-inner-blocks > .block-editor-block-list__layout > div:nth-child(2) {
+    width: 100%;
+    order: 0;
+}
+
+.block-editor-post-grid > .block-editor-inner-blocks > .block-editor-block-list__layout > div:nth-child(3) {
+    width: 100%;
+    order: 3;
+}
+
+.block-editor-post-grid .block-editor-block-list__layout .wp-block {
+    min-height: 100px;
+    width: 100%;
+}
+
+.block-editor-post-grid .block-editor-featured-post .wp-block {
+    width: 100%;
+}
+
+.block-editor-post-grid .block-editor-three-posts .wp-block {
+    width: 33%;
+}
+
+.block-editor-two-posts .wp-block,
+.block-editor-three-posts .wp-block,
+.block-editor-featured-post .wp-block {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.block-editor-two-posts .block-editor-block-list__layout {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.block-editor-three-posts .block-editor-block-list__layout {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.block-editor-featured-post .block-editor-block-list__layout {
+    width: 100%;
+}
+
+.post-selector {
+    padding: 15px;
+}
+
+.post-selector .post img {
+    margin: 0 0 15px;
+    width: 100%;
+}
+
+.post-selector .post h2 {
+    margin: 15px 0;
+}
+
+.post-selector .post p {
+    margin: 0 0 15px;
+}
+
+.components-base-control {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.components-panel__body .components-base-control {
+    padding: 0;
+}
+
+.block-editor-aside {
+    /* padding: 20px; */
+}
+
+.block-editor-aside > .block-editor-inner-blocks > .block-editor-block-list__layout > .wp-block:first-child {
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
